@@ -11,7 +11,10 @@ body {
 main.container {
     /* giv background width heigh,
     padding and center it horizontally */
-   
+    width: 1000px;
+    height: 200px;
+    padding-left: 50px;
+    margin-top: 15%;
 
     /* what is this doing? */
     overflow-y: scroll;
@@ -25,6 +28,8 @@ main.container {
     background-color: aqua;
     height: 50px;
     /* make it sticky, and you need to define top: */
+    position: sticky;
+    top: 0;
 }
 
 ul {
